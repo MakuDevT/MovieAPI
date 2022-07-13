@@ -1,0 +1,14 @@
+import 'package:flutter/material.dart';
+-- I used this package to serve as the building blocks of mobile application, where you can find the app the MaterialApp, Scaffold, AppBar and etc.
+
+import 'package:flutter/services.dart';
+-- I used this package to serve as it includes on how to lock the screen orientation of the mobile device.
+
+import 'package:tmdb_api/tmdb_api.dart';
+-- I used this package as it serve as the TheMovieDatabase libarary and in this package also lies on how to setup the API once you got the API Detail.
+
+import 'widgets/movieList.dart';
+-- I imported this package to pass the value of the movieIndex details statically to the second screen. 
+
+import 'package:fluttertoast/fluttertoast.dart';
+-- I used this package as it shows toast message when the button is clicked.
